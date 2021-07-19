@@ -1,0 +1,129 @@
+*{
+	margin-right: 0;
+	margin-left: 0;
+}
+
+nav ul{
+	display: table;
+	width: 100%;
+}
+nav li{
+	display: table-cell;
+}
+
+nav li:not(:last-child){
+	border-right:2px solid #ddd;
+}
+
+.container1{
+    margin-top: 20px;
+    width: 600px;
+	margin: auto;
+	font-size: large;
+}
+
+nav a{
+	font-size: large;
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	color: #555;
+	margin: 0 100px 0 100px;
+	}
+
+nav li:hover{
+	color: rgb(194, 181, 66);
+	border-bottom: 3px solid rgb(241, 234, 170);
+}
+
+nav li{
+	border-bottom: 3px solid white;
+}
+
+.album {
+	margin: auto;
+	background-color: white;
+	position: relative;
+}
+
+.album img {
+    width: 100%;
+    height: 500px;
+	margin-top: 3px;
+	animation-name: album;
+	-webkit-animation-name: album;
+	animation-duration: 15s;
+	-webkit-animation-duration: 15s;
+	animation-iteration-count: infinite;
+	-webkit-animation-iteration-count: infinite;
+	opacity: 0;
+}
+
+.album .img1 {
+    display: block;
+    position: absolute;
+    top: 0;
+}
+
+.album .img2 {
+	animation-delay:5s;
+	-webkit-animation-delay:5s;
+	position: absolute;
+    top: 0;
+}
+
+.album .img3{
+	animation-delay:10s;
+    -webkit-animation-delay:10s;
+    position: absolute;
+	top: 0;
+}
+
+@keyframes album {
+	0% {
+		opacity: 0;
+	}
+	12.5% {
+		opacity: 1;
+	}
+	37.5% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+}
+
+@-webkit-keyframes album {
+	0% {
+		opacity: 0;
+	}
+	12.5% {
+		opacity: 1;
+	}
+
+	37.5% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+}
+
+.emp{
+	height: 530px;
+}
+
+h2{
+	width: 300px;
+    margin: auto;
+	text-align: center;
+	border-bottom: solid 3px rgb(115, 193, 212);
+}
+
+p{
+	text-align: center;
+	font-size: 20px;
+	width: 700px;
+	margin: auto;
+}

@@ -1,0 +1,91 @@
+nav ul{
+	display: table;
+	width: 80%;
+}
+nav li{
+	display: table-cell;
+}
+nav li:not(:last-child){
+	border-right:2px solid #ddd;
+}
+nav a{
+	font-size: large;
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	color: #555;
+	margin: 0 100px 0 100px;
+	}
+
+nav li:hover{
+	color: #E7DA66;
+	border-bottom: 3px solid #F0E475;
+}
+
+nav li{
+	border-bottom: 3px solid white;
+}
+
+body{
+    background: white;
+}
+
+.container1{
+    margin: 10px auto;
+    width: 1000px;
+    height: 400px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 0 40px inset rgb(12, 0, 0);
+    border-radius: 10px;
+}
+
+#button{
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.5em 1em;
+    background: #3b3e44; /*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px #627295;
+    border-radius: 3px;
+}
+
+#button:active {
+    -webkit-transform: translateY(4px);
+    transform: translateY(2px);/*下に動く*/
+    border-bottom: none;/*線を消す*/
+ }
+
+#question{
+    font-size: 30px;
+    margin-top: 20px
+}
+
+#answer{
+    font-size: 30px;
+}
+
+.container2{
+    margin-top: 20px;
+    width: 400px;
+    margin: auto;
+}
+
+
+h1 {
+    padding: 5px 26px 5px 42px;
+    background: white;
+    font-size: 30px;
+    color: #574e4e;
+    border-bottom: solid 3px rgb(115, 193, 212);
+}
+
+h2 {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    border-bottom: solid 3px rgb(115, 193, 212);
+}
+
+
+  

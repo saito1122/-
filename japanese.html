@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ja">
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>日本語タイピング</title>
+        <link rel="stylesheet" type="text/css" href="style_japanese.css">
+    </head> 
+    <body>
+        <nav>
+            <ui>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="japanese.html">JAPANESE</a></li>
+                <li><a href="english.html">ENGLISH</a></li>
+            </ui>
+        </nav>
+        <div class = "container1">
+            <h1>タイピング練習</h1> 
+            <div id="button">リセット</div>
+            <div id="timer">00:00.000</div>
+            <div id="misscount">ミス:0</div> 
+            <div id="question">ENTERでスタート</div>
+            <input type="text" id="ansfield" value="" onkeyup="ShowLength(value);" autocomplete="nope" autofocus>
+            <div id="answer"></div>     
+            <div id="inputlength"></div>    
+                  
+        </div>
+
+        <h2>説明</h2>
+        <div class = "container2">
+            <ul type="circle">
+                <li>入力したらENTERで次の問題へ</li>
+                <li>間違っていたら進まない</li>
+                <li>間違ったらBACKSPACEで一文字ずつ削除</li>
+                <li>BACKSPACEを押すとミスにカウントされる</li>
+            </ul>
+        </div>
+        <script src="jap.js"></script>
+    </body>
+</html>
